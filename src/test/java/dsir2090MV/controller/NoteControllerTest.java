@@ -43,17 +43,17 @@ public class NoteControllerTest {
      */
     @Test
     public void Test3ValidECP() throws ClasaException {
-        ctrl.addNota(new Nota(1, "Mate", 9));
+        ctrl.addNota(new Nota(2, "Romana", 9));
         assertEquals(ctrl.getNote().size(), 1);
     }
     /*
      * Test4 valid ECP
      */
-    @Test
-    public void Test4ValidECP() throws ClasaException {
-        ctrl.addNota(new Nota(1, "Mate", 8));
-        assertEquals(ctrl.getNote().size(), 1);
-    }
+//    @Test
+//    public void Test4ValidECP() throws ClasaException {
+//        ctrl.addNota(new Nota(1, "Mate", 8));
+//        assertEquals(ctrl.getNote().size(), 1);
+//    }
     /*
      * Test1 nonvalid ECP
      */
@@ -120,7 +120,7 @@ public class NoteControllerTest {
      */
     @Test
     public void Test3ValidBVA() throws ClasaException {
-        ctrl.addNota(new Nota(1, "Matematicaaaaaaaaaaa", 10));
+        ctrl.addNota(new Nota(1, "MatematicaMatematicaaa", 8));
         assertEquals(ctrl.getNote().size(), 1);
     }
     /*

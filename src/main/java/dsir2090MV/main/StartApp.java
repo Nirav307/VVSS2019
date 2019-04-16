@@ -77,13 +77,13 @@ static void addNota(NoteController ctrl) throws ClasaException {
 		String materie;
 		double nota;
 
-		System.out.print("Nr matricol: ");
+		System.out.println("Nr matricol: ");
 		nr = scanner.nextInt();
 
-		System.out.print("Materie: ");
+		System.out.println("Materie: ");
 		materie = scanner.nextLine();
 
-		System.out.print("Nota: ");
+		System.out.println("Nota: ");
 		nota = scanner.nextDouble();
 
 		ctrl.addNota(new Nota(nr, materie, nota));
