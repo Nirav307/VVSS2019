@@ -73,7 +73,9 @@ public class ClasaRepositoryMock implements ClasaRepository{
 							suma += nota;
 							i++;
 						}
-						sumaMedii = sumaMedii + suma/i;
+						if(suma > 0){
+							sumaMedii = sumaMedii + suma/i;
+						}
 					}
 				}
 				medieElev = sumaMedii / nrMaterii;

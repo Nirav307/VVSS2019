@@ -1,3 +1,4 @@
 1;Romana;10
 2;Matematica;2
 3;Istorie;10
+3;Matematica;5

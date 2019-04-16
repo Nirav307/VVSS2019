@@ -30,8 +30,8 @@ public class StartApp {
 		List<Medie> medii = new LinkedList<Medie>();
 		List<Corigent> corigenti = new ArrayList<Corigent>();
 
-		ctrl.readElevi("D:\\faculta\\laburie mele\\piir2171VVSS-master\\src\\data\\elevi.txt");
-		ctrl.readNote("D:\\faculta\\laburie mele\\piir2171VVSS-master\\src\\data\\note.txt");
+		ctrl.readElevi("D:\\facultate\\An3 sem II\\VVSS\\VVSSlab2\\VVSS2019-master\\src\\data\\elevi.txt");
+		ctrl.readNote("D:\\facultate\\An3 sem II\\VVSS\\VVSSlab2\\VVSS2019-master\\src\\data\\note.txt");
 
 		ctrl.creeazaClasa(ctrl.getElevi(), ctrl.getNote());
 		boolean gasit = false;
